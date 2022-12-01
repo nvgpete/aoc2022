@@ -1,9 +1,9 @@
-#### These are solutions written in c for the Advent of Code - 2017. 
-See https://adventofcode.com/2017
+### These are solutions written in c for the Advent of Code - 2022. 
+See https://adventofcode.com/2022
 
-## Note: 
-This is a work in progress; examples below will be updated as puzzles for
-the various days are completed.
+### Note: 
+**This is a work in progress; examples below will be updated as puzzles for
+the various days are completed.**
 
 
 Each problem generally has two parts. Examples of filenames for day 5 are:
@@ -26,11 +26,9 @@ file will give the input and my reasoning.
 Sometimes there may also be a php version of the program for reasons
 described in the notes.
 
-```
-Compilation is generally something like
-gcc/clang -O3 -Wall -o d01a d01a.c
+Compilation is generally something like  
+gcc/clang -O3 -Wall -o d01a d01a.c  
 with exceptions listed in the notes.
-``` 
 
 These are not examples of good coding style nor necessarily of good code
 as they are one-offs where getting them to work quickly and correctly was the
