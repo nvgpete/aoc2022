@@ -1,0 +1,11 @@
+Cheating at rock/paper/scissors
+
+I originally did this by doing things like
+grep -c "A X" d02.txt
+for each of the 9 possible combinations and then using bc to add up the
+total points. That also gave me all the information to do the second part by
+just changing the coefficients repesenting the points for each combination
+in the bc command.
+
+I wrote a programatic solution later.
+ 

@@ -10,11 +10,15 @@ Each problem generally has two parts. Examples of filenames for day 5 are:
 - d05a.c - solution for first part
 - d05b.c - solution for second part
 - d05.txt - problem data set; the same for both parts.
+- d05x.txt - example test data set
 
-Very often the files of the sort d02b.c may not exist if the two parts of
-the problem were similar enough to do both in d02a.c.
+Very often the files of the sort d01b.c may not exist if the two parts of
+the problem were similar enough to do both in d01a.c.
 
-There may be a file like d03notes.txt if I felt more explanation was needed,
+I may not have included the example data for easy problems where I did not
+need to check my program logic.
+
+There may be a file like d01notes.txt if I felt more explanation was needed,
 or just felt like making general comments. Sometimes it is just additional
 compilation notes.
 
@@ -27,7 +31,7 @@ Sometimes there may also be a php version of the program for reasons
 described in the notes.
 
 Compilation is generally something like  
-gcc/clang -O3 -Wall -o d01a d01a.c  
+**gcc/clang -O3 -Wall -o d01a d01a.c**  
 with exceptions listed in the notes.
 
 These are not examples of good coding style nor necessarily of good code
@@ -39,3 +43,7 @@ straightforward enough to not require any comments.
 
 ## Synopsis of each days problem
 
+1. Elves carrying food.
+2. Cheating at rock/paper/scissors.
+3. Finding matching items in knapsacks.
+4. Elves avoiding duplicative tasks.

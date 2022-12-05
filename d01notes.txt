@@ -1,0 +1,6 @@
+Elves carrying food
+
+An alternative solution using unix commands is
+
+echo | cat d01.txt - | tr \\n + | sed "s/++/*/g" | tr "*" \\n | bc | sort -n
+
