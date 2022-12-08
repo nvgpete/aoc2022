@@ -20,13 +20,14 @@ int main(int argc,char **argv) {
   while (!feof(f)) {
     if((s2=strchr(s,'\n')))*s2=0;
     sscanf(s,"move %d from %d to %d",&j,&fr,&t);
+    top[fr-1]-=j;
     for (i=0;i<j;i++) {
-      st[t-1][top[t-1]++]=st[fr-1][--top[fr-1]];
+      st[t-1][top[t-1]++]=st[fr-1][top[fr-1]+i];
     }  
     fgets(s,sizeof(s),f);
   }  
   fclose(f);
   printf("Top crates=");
   for (j=0;j<9;j++) printf("%c",st[j][top[j]-1]);
-  printf("\n");  
-}
+  printf("\n");
+}  
