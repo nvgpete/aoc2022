@@ -47,3 +47,12 @@ straightforward enough to not require any comments.
 2. Cheating at rock/paper/scissors.
 3. Finding matching items in knapsacks.
 4. Elves avoiding duplicative tasks.
+5. Stacking crates.
+6. Finding markers in a data stream.
+7. Freeing space on filesystem.
+8. Finding optimal spot for treehouse.
+9. Crossing a rope bridge (maybe).
+10. Signals from a rudimentary Elfin communication device.
+11. Monkey business with your stuff.
+12. Best path to the hilltop.
+ 

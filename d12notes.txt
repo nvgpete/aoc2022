@@ -1,0 +1,19 @@
+Best path to the hilltop.
+
+A little explanation.
+
+I surrounded the input data by a row of z's to simplify boundary checks.
+('|' or '~', both greater than 'z'+1 would have been better choices, but I
+noted there were no z's onbthe outside edges.)
+
+I then located and saved the 'E' and 'S' locations and replaced them by 'a'
+and 'z'. 
+
+For part 1, I started at the 'E' location and moved out using a FIFO to
+store new locations, and updating an array of distances as I moved. The
+termination condition was being at the 'E' location.
+
+Part 2 was a copy of part 1, with the following changes:
+1. Start at 'S' instead of 'E'.
+2. Change the condition for adjacent squares to down 1 maximum.
+3. Terminate when we found a square with 'a' in it. 
