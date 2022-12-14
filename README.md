@@ -55,4 +55,6 @@ straightforward enough to not require any comments.
 10. Signals from a rudimentary Elfin communication device.
 11. Monkey business with your stuff.
 12. Best path to the hilltop.
+13. Condensing polymers.
+14. Filling a cave with sand.
  
