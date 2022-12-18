@@ -1,0 +1,9 @@
+Turning off steam valves (with elephants).
+
+This was really an awful problem. The search tree for both parts was too
+large to do without some kind of optimization, but those were hard to do. I
+mostly found I could make the program run quickly and give the wrong result,
+or have it run forever and give no result. Eventually I ended up with the 
+code here which ran fast enough and gave the correct answer.
+
+Perhaps some day I will revisit it and try something different.

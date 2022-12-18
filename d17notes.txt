@@ -1,0 +1,19 @@
+Tetris with giant rocks
+
+I started by representing the rocks as 4x4 arrays of rock shaped characters,
+but almost immediately decided it was easier to use sets of xy coordinates,
+where I only needed in increment or decrement the coordinates.
+
+I started the rocks just above the highest point so the first 4 iterations
+only consider the left/right motion; at that point a loop drops and wafts
+them uuntil they hit. The rest is straghtforward.
+
+For the second part, I originally was going to loop until I found a repeat 
+of the initial conditions for the wind string and the rock. However, that
+never happened in the test data, and I realized that the initial flat
+surface was different from the rubble that subsequent rocks dropped on. I
+decided if I went 100 steps that all traces of the initial conditions would
+be obliterated, and started looking for a repeat from there. Once I found a
+repeat, it was a simple matter to calculate how many repeats in 1E12 and the
+add the remainder back on.
+   

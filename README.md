@@ -57,4 +57,7 @@ straightforward enough to not require any comments.
 12. Best path to the hilltop.
 13. Condensing polymers.
 14. Filling a cave with sand.
+15. Finding the lost beacon.
+16. Turning off steam valves (with elephants).
+17. Tetris with big rocks.
  
