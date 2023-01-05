@@ -1,0 +1,17 @@
+Addition in balanced base 5.
+
+Converting to decimal and adding is easy, but going back to base 5, while
+not terribly difficult, requires more thought than I can handle on Christmas
+eve. Fortunately, I don't have to do that if I just do the addition in
+balanced base 5. First convert '-' and '=' to -1 and -2 in an array. Add 
+just like in base 10 where you add starting at the right and generate a
+carry if the result is more than 10. For balaanced base 5 again start at
+the right-most digit, and if the result is larger than 2 you subtract 5
+and generate a carry to the next larger position. Unlike base 10, you might
+also get a sum less than -3 where you will need to add 5 and generate a
+borrow from the next larger position. Then just proceed leftward through the
+digits. Finally translate the results to the digits 0-3, '-' and '='.
+
+There is actually a bug in my code which did not affect the result so I
+didn't bother to fix it. (I had better things to do, like waiting for
+Santa...) Can you find it?

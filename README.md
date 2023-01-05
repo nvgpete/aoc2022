@@ -60,4 +60,11 @@ straightforward enough to not require any comments.
 15. Finding the lost beacon.
 16. Turning off steam valves (with elephants).
 17. Tetris with big rocks.
- 
+18. Condensing falling lava to obsidian.
+19. Cracking geodes.
+20. Elfian decryption.
+21. Monkey math.
+22. Passwords from 2D & 3D maps.
+23. Elves spreading out to plant fruit.
+24. Avoiding blizzards in the valley.  
+25. Addition in balanced base 5. 

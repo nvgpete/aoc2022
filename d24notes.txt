@@ -1,0 +1,12 @@
+Avoiding blizzards in the valley.
+
+A few notes.
+1. In order to keep all the blizzards in a char array, I recoded them as 1,
+   2, 4, and 8 and used the '&' operator to figure out what was where.
+2. The blizzards will repeat after LCM(wid,hgt) minutes, in my case 600 with
+   wid=120 and hgt=25. 
+3. Each state is dependent only on xy position and time so much needless
+   searching can be avoided by checking if you have ever been at the same
+   place at the same time. In retrospect, I could have used another bit
+   position in the blizzard array to store that info.
+ 

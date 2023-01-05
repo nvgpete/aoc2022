@@ -1,0 +1,4 @@
+Condensing falling lava to obsidian.
+
+Fairly easy. Note that for part two it is simpler to flood-fill from the
+outside than to try and locate and subtract off all of the holes.

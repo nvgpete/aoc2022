@@ -1,0 +1,10 @@
+Elvish Decryption
+
+This problem was not hard, but was made more difficult by instructions which
+didn't fully describe the process and an example which did not include the
+questionable case. The question is whether you remove the value from the
+list in cases where you move further than the length of the list so you go
+by the starting point. I assumed you didn't which didn't matter in the
+example, but was wrong for the actual data. Since there wasn't anything
+wrong with my code, just my assumptions, it took a long time to get it
+right.

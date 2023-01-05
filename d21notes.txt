@@ -1,0 +1,11 @@
+Monkey Math.
+
+The first part is easy. Arrange the monkeys in a tree (which seems a natural
+place for monkeys) and the traverse it.
+
+For the second part, I used a hybrid approach. By hand, I first adjusted the
+value of 'humn' to see whether it affected the left or right branch of the
+tree. Then, again by hand, I adjusted 'humn' until I found an interval
+where which branch was greatest changed. That turned out to be between
+3e12 and 4e12. I then wrote a simple binary search to zero in on the value
+of 'humn' which made both sides equal.

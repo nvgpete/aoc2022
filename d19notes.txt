@@ -1,0 +1,21 @@
+Cracking Geodes.
+
+Since at each minute it was sometimes necessary to wait even if a robot
+could have been built, I chose to search by picking the next robot to
+be built and building it as soon as a possible. I was never able to come up
+with a rigorous strategy to cut down on the search so both parts search
+through all possible states. I have commented d19a.c since even I had
+trouble seeing what I was doing. The second part is nearly identical, with
+only changes for the longer time and fewer blueprints.
+
+Both of these programs were slower than I would have liked; about 30 seconds
+for the first part and nearly an hour for the second. At least the results
+were correct.
+
+I then added a heuristic based on the idea that greatly overproducing any
+resource was probably wrong. The programs can be recompiled with either
+-DFAST or -DFASTEST. The FAST version should work with any data as I was
+quite conservative in my values; the FASTEST version is tuned to work on my
+data and might fail on a different dataset. For the FAST version, the
+timings went down to 2 and 15 seconds. For the FASTEST version, the timings
+were 0.1 and 0.5 seconds.

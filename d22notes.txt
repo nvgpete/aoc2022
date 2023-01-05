@@ -1,0 +1,9 @@
+Passwords from 2D and 3D maps.
+
+The first part is straightforward.
+
+The second part is just like the first part, except for the boundary
+conditions. I spent too much time trying to figure out how to fold cubes cut
+in arbitrary ways (there are quite a few variations). Finally, I just
+created an array by hand to match the sides of the folded cube for the data
+I had.
